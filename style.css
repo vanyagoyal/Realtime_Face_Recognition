@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    background-image: url("Bg.jpg");
+    background-size:100%;
+    background-position-x:center;
+    background-position-y:-100px;
+    border:10px solid rgb(252, 170, 170);
+    border-radius:40px;
+    height:721px;
+}
+h1 {
+    width:80%;
+    background-color: rgb(243, 212, 212);
+    line-height:2;
+    margin-top:10px;
+    font-family: 'Orelega One', cursive;
+    font-size:50px;
+    border-radius:20px;
+    box-shadow: 0px 0px 30px purple;
+}
+#div_members{
+    background-color: lightgreen;
+    border-radius: 20px;
+    width:600px;
+    height:100px;
+    box-shadow: 0px 0px 25px blue;
+}
+#div_members label {
+    font-size:25px;
+    color:navy;
+    text-decoration: underline;
+    font-family: 'Lobster', cursive;
+}
+#div_members h3 {
+    margin-top:2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+#footer {
+    animation-name: bg_color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position:fixed;
+    bottom:10px;
+    font-size:25px;
+    font-family: 'Noto Serif', serif;
+    color:grey;
+    width:1515px;
+    border-bottom-left-radius:40px;
+    border-bottom-right-radius:40px;
+    line-height: 2;
+}
+@keyframes bg_color {
+    from {
+        background-color: navy;
+    }
+    to {
+        background-color:pink;
+    }
+}
+canvas {
+    box-shadow:5px 5px 20px crimson;
+    margin-top:130px;
+}
+.result_p {
+    font-size:25px;
+    color:aqua;
+    background-color: darkblue;
+    width:fit-content;
+    height:40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
